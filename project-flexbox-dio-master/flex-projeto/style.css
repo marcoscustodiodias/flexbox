@@ -110,7 +110,8 @@ header .menu {
 }
 .list-servicos {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  text-align: center;
 }
 .item-servico .list-servicos {
   text-align: center;
@@ -141,7 +142,6 @@ header .menu {
   font-size: 18px;
   color: white;
   margin-top: 20px;
-  /*margin-left: 3px;*/
 }
 
 .item-servico img {
