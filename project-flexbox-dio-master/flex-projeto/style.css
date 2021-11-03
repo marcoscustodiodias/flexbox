@@ -60,7 +60,7 @@ header .menu {
   margin-bottom: 10px;
 }
 
-.texto-aparesentacao a {
+.btn {
   background-color: #122a57;
   color: white;
   text-align: center;
@@ -159,4 +159,46 @@ header .menu {
   flex: 1;
   border: 3px solid #122a57;
   max-height: 20px;
+  padding: 10px;
+}
+
+.item-plano .btn {
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.item-plano h3 {
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.item-plano h3::after {
+  content: "";
+  background-color: #122a57;
+  width: 100%;
+  height: 3px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.item-plano ul {
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+}
+.item-plano ul li {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.item-plano ul li::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: #122a57;
+  margin-right: 5px;
 }
