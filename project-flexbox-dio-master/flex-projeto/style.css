@@ -148,3 +148,15 @@ header .menu {
   width: 80%;
   margin: auto;
 }
+.list-planos {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: flex-end;
+}
+
+.item-plano {
+  flex: 1;
+  border: 3px solid #122a57;
+  max-height: 20px;
+}
