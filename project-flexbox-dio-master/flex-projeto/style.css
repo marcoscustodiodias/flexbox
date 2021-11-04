@@ -181,23 +181,44 @@ header .menu {
   font-size: 24px;
   display: flex;
   flex-direction: column;
-  text-align: center;
+}
+
+.item-plano h1 {
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  margin-top: 10px;
+}
+
+.item-plano h2 {
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
   margin-top: 20px;
 }
 
+.item-plano h3 {
+  font-size: 24px;
+  display: flex;
+}
+
 .item-plano h3::after {
-  content: "";
+ content: "";
   background-color: #122a57;
   width: 100%;
   height: 3px;
   margin-top: 20px;
   margin-bottom: 10px;
+  flex-direction: column;
 }
 
 .item-plano ul {
   padding: 10px 20px;
   display: flex;
   flex-direction: column;
+  align-self: baseline;
 }
 .item-plano ul li {
   display: flex;
@@ -214,7 +235,7 @@ header .menu {
   margin-right: 5px;
 }
 
-#plamos {
+.plano h1 {
   flex-direction: column;
   min-height: 100vh;
   padding-top: 50px;
@@ -232,6 +253,13 @@ footer .footer {
 }
 footer #dev{
   font-size: 20px;
+  color: #fff;
+  flex: content;
+  flex-direction: row;
+  flex-shrink: initial;
+}
+footer p{
+  padding: 10px;
   color: #fff;
 }
 *mobile*/
